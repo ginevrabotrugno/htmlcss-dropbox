@@ -169,6 +169,23 @@ main section {
 
 }
 
+.col-60 {
+    width: 60%;
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.col-40 {
+    width: 40%;
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
 
 
 
