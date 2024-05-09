@@ -146,6 +146,10 @@ main section {
     display: flex;
 }
 
+.row.wrap {
+    flex-wrap: wrap;
+}
+
 .col-33 {
     width: calc(100% / 3);
 
