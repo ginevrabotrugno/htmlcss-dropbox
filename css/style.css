@@ -8,3 +8,88 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+
+
+
+
+
+/* regole header  */
+
+header {
+    height: 500px;
+    /* DEBUG */
+    background-color: violet;
+}
+
+
+/* regole main menu */
+#main-menu {
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    /* DEBUG */
+    background-color: azure;
+}
+
+#logo {
+    /* DEBUG */
+    width: 200px;
+    height: 100%;
+    background-color: aqua;
+}
+
+#menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* DEBUG */
+    height: 100%;
+    width: calc(100% - 200px);
+    background-color: blue;
+}
+
+#menu-container nav {
+    /* DEBUG */
+    width: 400px;
+    height: 40px;
+    background-color: blueviolet;
+}
+
+
+/* regole jumbotron */
+
+#jumbotron {
+    background-color: coral;
+}
+
+#jumbo-container {
+    width: 80%;
+    margin: 25px auto;
+    text-align: center;
+}
+
+#jumbotron h1 {
+    /* DEBUG */
+    background-color: brown;
+    height: 60px;
+}
+
+#jumbo-content {
+    display: flex;
+}
+
+#jumbo-content .text {
+    width: 40%;
+    /* DEBUG */
+    height: 300px;
+    background-color: chocolate;
+}
+
+#jumbo-content .img {
+    width: 60%;
+    /* DEBUG */
+    height: 300px;
+    background-color: darkgreen;
+}
