@@ -72,14 +72,13 @@ header {
 /* regole jumbotron */
 
 #jumbotron {
-    background-color: coral;
+    background-color: #b4d0e7;
     padding-top: 100px;
 }
 
 #jumbo-container {
     width: 80%;
     margin: 0 auto;
-    text-align: center;
 }
 
 #jumbotron h1 {
@@ -106,6 +105,91 @@ header {
     height: 300px;
     background-color: darkgreen;
 }
+
+
+
+
+
+/* regole main */
+
+/* debug */
+main section {
+    background-color: blueviolet;
+    min-height: 500px;
+    border: solid white 2px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    
+    /* debug */
+    background-color: chartreuse;
+    min-height: 300px;
+}
+
+.container h2 {
+    /* DEBUG */
+    background-color: brown;
+    height: 60px;
+}
+
+.invoice {
+
+    /* debug */
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+}
+
+.row {
+    display: flex;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.enterprise {
+    width: 100%;
+    
+    /* debug */
+    min-height: 200px;
+    background-color: darkblue;
+    border: solid 1px white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* regole footer */
@@ -147,5 +231,4 @@ header {
 
 .language div {
     height: 100%;
-
 }
