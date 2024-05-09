@@ -19,6 +19,46 @@ a {
 }
 
 
+/* regole comuni */
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    
+    /* debug */
+    background-color: chartreuse;
+    min-height: 300px;
+}
+
+
+.col-60 {
+    width: 60%;
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.col-40 {
+    width: 40%;
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+
 
 
 /* regole header  */
@@ -77,7 +117,7 @@ header {
 }
 
 #jumbo-container {
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -90,20 +130,6 @@ header {
 #jumbo-content {
     display: flex;
     align-items: center;
-}
-
-#jumbo-content .text {
-    width: 40%;
-    /* DEBUG */
-    height: 300px;
-    background-color: chocolate;
-}
-
-#jumbo-content .img {
-    width: 60%;
-    /* DEBUG */
-    height: 300px;
-    background-color: darkgreen;
 }
 
 
@@ -119,14 +145,6 @@ main section {
     border: solid white 2px;
 }
 
-.container {
-    max-width: 1000px;
-    margin: 20px auto;
-    
-    /* debug */
-    background-color: chartreuse;
-    min-height: 300px;
-}
 
 .container h2 {
     /* DEBUG */
@@ -150,14 +168,6 @@ main section {
     flex-wrap: wrap;
 }
 
-.col-33 {
-    width: calc(100% / 3);
-
-    /* debug */
-    min-height: 300px;
-    background-color: darkblue;
-    border: solid 1px white;
-}
 
 .enterprise {
     width: 100%;
@@ -169,31 +179,13 @@ main section {
 
 }
 
-.col-60 {
-    width: 60%;
-
-    /* debug */
-    min-height: 300px;
-    background-color: darkblue;
-    border: solid 1px white;
-}
-
-.col-40 {
-    width: 40%;
-
-    /* debug */
-    min-height: 300px;
-    background-color: darkblue;
-    border: solid 1px white;
-}
-
 .wrapper {
     width: 100%;
     display: flex;
 
     /* debug */
     background-color: chartreuse;
-    height: 500px;
+    min-height: 0;
 }
 
 .square {
@@ -209,7 +201,6 @@ main section {
 .partner {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 
