@@ -187,6 +187,30 @@ main section {
     border: solid 1px white;
 }
 
+.wrapper {
+    width: 100%;
+    display: flex;
+
+    /* debug */
+    background-color: chartreuse;
+    height: 500px;
+}
+
+.square {
+    width: calc(100% / 2);
+    aspect-ratio: 1/1;
+
+    /* debug */
+    background-color: coral;
+    border: solid 1px white;
+ 
+}
+
+.partner {
+    display: flex;
+    flex-wrap: wrap;
+
+}
 
 
 
