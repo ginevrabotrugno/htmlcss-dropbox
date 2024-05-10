@@ -1,0 +1,61 @@
+/* regole debug */
+
+
+/* REGOLE COMUNI  */
+
+.container {
+    /* debug */
+    background-color: chartreuse;
+    min-height: 300px;
+}
+
+.col-60 {
+    /* debug */
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.col-40 {
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+.col-33 {
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
+
+
+
+
+
+
+
+
+/* REGOLE MAIN  */
+
+/* debug */
+main section {
+    background-color: blueviolet;
+    min-height: 500px;
+    border: solid white 2px;
+}
+
+.wrapper {
+    /* debug */
+    background-color: chartreuse;
+    min-height: 0;
+}
+
+.square {
+    /* debug */
+    background-color: coral;
+    border: solid 1px white;
+ 
+}
+
+
