@@ -24,13 +24,18 @@ a {
     color: inherit;
 }
 
-a.default {
-    text-decoration: underline;
-    color: #70a6f8;
+h2 {
+    font-size: 40px;
+    margin: 50px 0;
 }
 
 
 /* regole comuni */
+
+a.default {
+    text-decoration: underline;
+    color: #70a6f8;
+}
 
 .button {
     color: #ffffff;
@@ -112,7 +117,6 @@ a.default {
 
 header {
     height: 650px;
-    background-color: #b4d0e7;
 }
 
 
@@ -189,7 +193,7 @@ ul.row {
 
 /* regole main */
 
-.container h2 {
+h2 {
     font-size: 40px;
     margin-bottom: 50px;
 }
@@ -309,6 +313,21 @@ ul.row {
     transform: translate(-50%, -50%);
 }
 
+section.grey-bg .container {
+    margin-top: 0;
+}
+
+section.grey-bg h2 {
+    color:#61082b;
+}
+.button.white {
+    color: #111111;
+    background-color: #ffffff;
+    padding: 5px 10px;
+    margin: 60px 20px;
+    display: inline-block;
+    
+}
 
 
 
