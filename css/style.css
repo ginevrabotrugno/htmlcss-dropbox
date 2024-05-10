@@ -9,6 +9,11 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+
+img {
+    max-width: 100%;
+}
+
 ul {
     list-style: none;
 }
@@ -36,10 +41,6 @@ a.default {
 .container {
     width: 60%;
     margin: 100px auto;
-    
-    /* debug */
-    background-color: chartreuse;
-    min-height: 300px;
 }
 
 .row {
@@ -52,28 +53,21 @@ a.default {
 
 .col-60 {
     width: 60%;
-    /* debug */
-    background-color: darkblue;
-    border: solid 1px white;
 }
 
 .col-40 {
     width: 40%;
     padding: 0 20px;
-    /* debug */
-    min-height: 300px;
-    background-color: darkblue;
-    border: solid 1px white;
 }
 
 
 .col-33 {
     width: calc(100% / 3);
-    /* debug */
-    min-height: 300px;
-    background-color: darkblue;
-    border: solid 1px white;
 }
+
+
+
+
 
 
 
@@ -82,7 +76,6 @@ a.default {
 
 header {
     height: 650px;
-    /* DEBUG */
     background-color: #b4d0e7;
 }
 
@@ -160,11 +153,16 @@ ul.row {
 
 /* regole main */
 
-/* debug */
-main section {
-    background-color: blueviolet;
-    min-height: 500px;
-    border: solid white 2px;
+.container h2 {
+    font-size: 30px;
+}
+
+.invoice {
+    margin: 40px 0 30px;
+}
+
+.invoice span {
+    padding-right: 30px;
 }
 
 .row.first {
@@ -183,11 +181,9 @@ main section {
     padding-right: 30px;
 }
 
-
 .plan {
     padding: 10px;    
 }
-
 
 .plan.option.bordered {
     border-bottom: solid 1px #e2e2e4;
@@ -246,23 +242,19 @@ main section {
     padding-top: 30px;
 }
 
+.features > * {
+    text-align: center;
+    padding: 10px;
+}
+
 .wrapper {
     width: 100%;
     display: flex;
-
-    /* debug */
-    background-color: chartreuse;
-    min-height: 0;
 }
 
 .square {
     width: calc(100% / 2);
     aspect-ratio: 1/1;
-
-    /* debug */
-    background-color: coral;
-    border: solid 1px white;
- 
 }
 
 .partner {
