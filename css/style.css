@@ -13,9 +13,15 @@ ul {
     list-style: none;
 }
 
+
 a {
     text-decoration: none;
     color: inherit;
+}
+
+a.default {
+    text-decoration: underline;
+    color: #70a6f8;
 }
 
 
@@ -29,13 +35,21 @@ a {
 
 .container {
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 100px auto;
     
     /* debug */
     background-color: chartreuse;
     min-height: 300px;
 }
 
+.row {
+    display: flex;
+    gap: 20px;
+}
+
+.row.wrap {
+    flex-wrap: wrap;
+}
 
 .col-60 {
     /* debug */
@@ -55,7 +69,6 @@ a {
 
 .col-33 {
     width: calc(100% / 3);
-
     /* debug */
     min-height: 300px;
     background-color: darkblue;
@@ -70,7 +83,7 @@ a {
 header {
     height: 650px;
     /* DEBUG */
-    background-color: violet;
+    background-color: #b4d0e7;
 }
 
 
@@ -105,7 +118,6 @@ ul.row {
 /* regole jumbotron */
 
 #jumbotron {
-    background-color: #b4d0e7;
     padding-top: 100px;
 }
 
@@ -157,27 +169,51 @@ main section {
 
 
 .container h2 {
-    /* DEBUG */
-    background-color: brown;
-    height: 60px;
+    font-size: 30px;
 }
 
 .invoice {
-
-    /* debug */
-    width: 200px;
-    height: 50px;
-    background-color: blue;
+    margin: 40px 0 30px;
 }
 
-.row {
-    display: flex;
+.invoice span {
+    padding-right: 30px;
 }
 
-.row.wrap {
-    flex-wrap: wrap;
+
+.plan {
+    padding: 10px;    
 }
 
+
+.plan.option.bordered {
+    border-bottom: solid 1px #e2e2e4;
+}
+
+.bordered {
+    border: solid 1px #e2e2e4;
+}
+
+.plan.option {
+    text-align: center;
+}
+
+.plan.title > * {
+    display: block;
+}
+
+.plan.info > * {
+    padding: 20px 0;
+}
+
+.detail {
+    padding-top: 10px;
+}
+
+.free-trial {
+    text-align: center;
+    margin-top: 40px;
+}
 
 .enterprise {
     width: 100%;
