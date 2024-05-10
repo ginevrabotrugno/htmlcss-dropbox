@@ -315,11 +315,13 @@ h2 {
 
 section.grey-bg .container {
     margin-top: 0;
+    padding: 50px 0;
 }
 
 section.grey-bg h2 {
     color:#61082b;
 }
+
 .button.white {
     color: #111111;
     background-color: #ffffff;
@@ -328,6 +330,21 @@ section.grey-bg h2 {
     display: inline-block;
     
 }
+
+ul.faq {
+    border-top:solid 1px #e2e2e4;
+    padding: 0;
+}
+
+.faq {
+    border-bottom: solid 1px #e2e2e4;
+    padding: 20px 0;
+}
+
+.fa-chevron-down {
+    float: right;
+}
+
 
 
 
