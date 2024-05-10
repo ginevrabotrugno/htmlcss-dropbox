@@ -65,7 +65,43 @@ a.default {
     width: calc(100% / 3);
 }
 
+.green-bg {
+    background-color: #a2d39b; 
+ }
 
+ .brown-bg {
+    background-color: #61082b; 
+ }
+
+ .azure-bg {
+    background-color: #0093ce; 
+ }
+
+ .red-bg {
+    background-color: #ff1c1c; 
+ }
+ 
+ .dkred-bg {
+    background-color: #d5001f; 
+ }
+
+ .grey-bg {
+    background-color: #b4d0e7; 
+ }
+
+ .blue-bg {
+    background-color: #0d2481; 
+ }
+
+ .yellow-bg {
+    background-color: #ffd830; 
+ }
+
+
+
+
+
+ 
 
 
 
@@ -252,7 +288,20 @@ ul.row {
 .square {
     width: calc(100% / 2);
     aspect-ratio: 1/1;
+    position: relative;
 }
+
+.square img {
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
 
 .partner {
     display: flex;
