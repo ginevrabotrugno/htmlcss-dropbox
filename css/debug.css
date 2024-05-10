@@ -3,7 +3,14 @@
 
 /* REGOLE COMUNI  */
 
+
 .container {
+    /* debug */
+    background-color: chartreuse;
+    min-height: 300px;
+}
+
+.container-80 {
     /* debug */
     background-color: chartreuse;
     min-height: 300px;
@@ -29,6 +36,12 @@
     border: solid 1px white;
 }
 
+.col-20 {
+    /* debug */
+    min-height: 300px;
+    background-color: darkblue;
+    border: solid 1px white;
+}
 
 
 
@@ -58,4 +71,12 @@ main section {
  
 }
 
+
+
+/* REGOLE FOOTER  */
+
+/* .language {
+    background-color: rgb(47, 222, 61);
+    border-top: 2px solid yellow;
+} */
 
