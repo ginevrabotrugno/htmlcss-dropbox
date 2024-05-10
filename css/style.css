@@ -38,22 +38,20 @@ a {
 
 
 .col-60 {
-    width: 60%;
-
     /* debug */
-    min-height: 300px;
     background-color: darkblue;
     border: solid 1px white;
 }
 
 .col-40 {
     width: 40%;
-
+    padding-right: 20px;
     /* debug */
     min-height: 300px;
     background-color: darkblue;
     border: solid 1px white;
 }
+
 
 .col-33 {
     width: calc(100% / 3);
@@ -70,7 +68,7 @@ a {
 /* regole header  */
 
 header {
-    height: 500px;
+    height: 650px;
     /* DEBUG */
     background-color: violet;
 }
@@ -112,19 +110,36 @@ ul.row {
 }
 
 #jumbo-container {
-    width: 1200px;
+    width: 80%;
     margin: 0 auto;
 }
 
 #jumbotron h1 {
-    /* DEBUG */
-    background-color: brown;
-    height: 60px;
+    font-weight: 900;
+    font-size: 70px;
+    margin-bottom: 25px;
 }
 
 #jumbo-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.col-40 p {
+    margin-bottom: 20px;
+}
+
+.col-40 div {
+    margin-top: 30px;
+}
+
+.fa-arrow-down {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.col-60 img {
+    max-width: 700px;
 }
 
 
