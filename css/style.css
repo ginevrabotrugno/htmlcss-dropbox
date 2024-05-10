@@ -34,7 +34,7 @@ a.default {
 }
 
 .container {
-    max-width: 1000px;
+    width: 60%;
     margin: 100px auto;
     
     /* debug */
@@ -51,6 +51,7 @@ a.default {
 }
 
 .col-60 {
+    width: 60%;
     /* debug */
     background-color: darkblue;
     border: solid 1px white;
@@ -150,7 +151,7 @@ ul.row {
 }
 
 .col-60 img {
-    max-width: 700px;
+    max-width: 100%;
 }
 
 
@@ -200,6 +201,10 @@ main section {
     text-align: center;
 }
 
+.plan.title  {
+    padding: 20px 10px;
+}
+
 .plan.title > * {
     display: block;
 }
@@ -218,13 +223,19 @@ main section {
 }
 
 .enterprise {
-    width: 100%;
-    
-    /* debug */
-    min-height: 200px;
-    background-color: darkblue;
-    border: solid 1px white;
+    margin-top: 20px;
+}
 
+.enterprise .plan.title > * {
+    padding: 10px 0;
+}
+
+.enterprise .free-trial {
+    text-align: right;
+}
+
+.bottom-info {
+    margin-top: 40px;
 }
 
 .wrapper {
