@@ -44,7 +44,6 @@ a.default {
 
 .row {
     display: flex;
-    gap: 20px;
 }
 
 .row.wrap {
@@ -167,6 +166,9 @@ main section {
     border: solid white 2px;
 }
 
+.row.first {
+    gap: 20px;
+}
 
 .container h2 {
     font-size: 30px;
