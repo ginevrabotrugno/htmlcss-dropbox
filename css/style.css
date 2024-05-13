@@ -302,11 +302,16 @@ ul.row {
 
 section.grey-bg .container {
     margin-top: 0;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 section.grey-bg h2 {
     color:#61082b;
+    margin: 0 auto;
+}
+
+section.grey-bg .col-40 {
+    text-align: right;
 }
 
 .button.white {
