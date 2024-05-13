@@ -33,11 +33,15 @@ h2 {
 }
 
 h3 {
-    padding: 30px 0;
+    padding: 10px 0;
 }
 
 
 /* regole comuni */
+
+.block > * {
+    display: block;
+}
 
 a.default {
     text-decoration: underline;
@@ -47,7 +51,8 @@ a.default {
 .button {
     color: #ffffff;
     background-color: #0061ff;
-    padding: 5px 15px;
+    padding: 8px 25px;
+    text-align: center;
 }
 
 .container {
@@ -139,7 +144,6 @@ header {
 
 /* regole main menu */
 #main-menu {
-    color: #111010;
     width: 100%;
     height: 50px;
     padding: 10px;
@@ -172,11 +176,6 @@ ul.row {
     padding-top: 100px;
 }
 
-.container-80 {
-    width: 80%;
-    margin: 0 auto;
-}
-
 #jumbotron h1 {
     font-weight: 900;
     font-size: 70px;
@@ -188,21 +187,12 @@ ul.row {
     align-items: flex-start;
 }
 
-.col-40 p {
-    margin-bottom: 20px;
-}
-
 .col-40 div {
     margin-top: 30px;
 }
 
 .fa-arrow-down {
     font-size: 60px;
-    font-weight: 900;
-}
-
-.col-60 img {
-    max-width: 100%;
 }
 
 
@@ -210,11 +200,6 @@ ul.row {
 
 
 /* regole main */
-
-h2 {
-    font-size: 40px;
-    margin-bottom: 50px;
-}
 
 .invoice {
     margin: 40px 0 30px;
@@ -228,19 +213,12 @@ h2 {
     gap: 20px;
 }
 
-.invoice {
-    margin: 40px 0 30px;
-}
-
-.invoice span {
-    padding-right: 30px;
-}
-
 .plan {
-    padding: 10px;    
+    padding: 15px;    
 }
 
-.plan.option.bordered {
+.plan.option {
+    text-align: center;
     border-bottom: solid 1px #e2e2e4;
 }
 
@@ -248,45 +226,20 @@ h2 {
     border: solid 1px #e2e2e4;
 }
 
-.plan.option {
-    text-align: center;
-}
-
-.plan.title  {
-    padding: 20px 10px;
-}
-
-.block, .plan.title > * {
-    display: block;
-}
-
 .plan.info > * {
-    padding: 20px 0;
-}
-
-.detail {
-    padding-top: 10px;
-}
-
-.free-trial {
-    text-align: center;
-    margin-top: 40px;
+    padding: 30px 0;
 }
 
 .enterprise {
     margin-top: 20px;
 }
 
-.enterprise .plan.title > * {
-    padding: 10px 0;
-}
-
-.enterprise .free-trial {
+.enterprise .col-40 div {
     text-align: right;
 }
 
 .bottom-info {
-    margin-top: 40px;
+    padding: 40px 0;
 }
 
 .col-40.spaced > * {
