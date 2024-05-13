@@ -37,16 +37,13 @@ h3 {
     padding: 10px 0;
 }
 
-
-/* regole comuni */
-
 .block > * {
     display: block;
 }
 
 a.default {
     text-decoration: underline;
-    color: #70a6f8;
+    color: #1e74ff;
 }
 
 .button {
@@ -55,6 +52,15 @@ a.default {
     padding: 8px 25px;
     text-align: center;
 }
+
+
+
+
+
+
+
+
+/* regole comuni */
 
 .container {
     width: 60%;
@@ -74,8 +80,22 @@ a.default {
     flex-wrap: wrap;
 }
 
+.col-20 {
+    width: 20%;
+    padding: 10px;
+}
+
 .col-30 {
     width: 30%;
+}
+
+.col-33 {
+    width: calc(100% / 3);
+}
+
+.col-40 {
+    width: 40%;
+    padding: 0 20px;
 }
 
 .col-50 {
@@ -86,21 +106,6 @@ a.default {
 
 .col-60 {
     width: 60%;
-}
-
-.col-20 {
-    width: 20%;
-    padding: 10px;
-}
-
-.col-40 {
-    width: 40%;
-    padding: 0 20px;
-}
-
-
-.col-33 {
-    width: calc(100% / 3);
 }
 
 .green-bg {
@@ -135,6 +140,10 @@ a.default {
     background-color: #ffd830; 
  }
 
+ .bordered {
+    border: solid 1px #e2e2e4;
+}
+
 
 
 
@@ -152,8 +161,6 @@ header {
     height: 650px;
 }
 
-
-/* regole main menu */
 #main-menu {
     width: 100%;
     height: 50px;
@@ -174,11 +181,9 @@ header {
     justify-content: space-between;
 }
 
-
 ul.row {
     gap: 20px;
 }
-
 
 /* regole jumbotron */
 
@@ -209,7 +214,16 @@ ul.row {
 
 
 
+
+
+
+
+
 /* regole main */
+
+.row.first {
+    gap: 20px;
+}
 
 .invoice {
     margin: 40px 0 30px;
@@ -219,8 +233,8 @@ ul.row {
     padding-right: 30px;
 }
 
-.row.first {
-    gap: 20px;
+.fa-circle-dot {
+    color: #1e74ff;
 }
 
 .plan {
@@ -230,10 +244,6 @@ ul.row {
 .plan.option {
     text-align: center;
     border-bottom: solid 1px #e2e2e4;
-}
-
-.bordered {
-    border: solid 1px #e2e2e4;
 }
 
 .plan.info > * {
@@ -284,6 +294,9 @@ ul.row {
 
 .col-40.scroll img {
     width: 50%;
+    height: auto;
+    position: relative;
+    border-bottom: 2px solid black;
 }
 
 .square {
