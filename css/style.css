@@ -20,6 +20,7 @@ ul {
 
 li {
     padding: 10px 0;
+    font-size: small;
 }
 
 a {
@@ -175,7 +176,6 @@ header {
 
 
 ul.row {
-    font-size: small;
     gap: 20px;
 }
 
@@ -327,6 +327,8 @@ ul.faq {
 .faq {
     border-bottom: solid 1px #e2e2e4;
     padding: 20px 0;
+    font-weight: bold;
+    font-size: medium;
 }
 
 .fa-chevron-down {
@@ -363,19 +365,21 @@ ul.faq {
 
 
 /* regole footer */
- footer {
+footer {
     min-height: 400px;
     background-color: #000000;
     color: white;
- }
+}
 
- footer .row {
+footer .row {
     gap: 20px;
     justify-content: space-between;
- }
+    padding: 25px 0;
+}
 
 .language {
     margin: 50px 0 20px;
+    font-size: small;
 }
 
 .language span {
